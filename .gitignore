@@ -1,0 +1,30 @@
+node_modules/
+.vscode
+assets/auth/baileys
+assets/temp/
+assets/temp/wa-logs.txt
+
+assets/auth/*
+
+# WhatsApp / autenticação
+assets/auth/*
+!assets/auth/.gitkeep
+
+# Backups locais
+src.backup-spider-removal/
+src/*.bak*
+src/*.backup*
+src/*.erro
+*.backup-*
+*.bak*
+
+# Arquivos temporários
+assets/temp/*
+
+# Arquivos locais de teste
+menu-novo.txt
+pinterest.html
+test-*.mp4
+test-*.mp3
+src/utils/*.before-cleanup.js
+assets/images/*-backup.*
